@@ -1,0 +1,7 @@
+1.垃圾回收
+    内存自动回收，再也不需要开发人员管理内存
+2.天然并发
+    a.从语言层面支持并发，非常简单
+    b.roroute：轻量级线程，创建成千上万个goroute成为可能
+        go语言中go关键字即可调用线程
+    c.基于CSP（Communicating Sequential Process）模型实现
